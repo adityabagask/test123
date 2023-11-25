@@ -1,4 +1,4 @@
-﻿const fs = require('fs')
+const fs = require('fs')
 
 global.namabot = "Assistant Louise"
 global.namaowner = "Bagas x Louise"
@@ -19,65 +19,92 @@ Mau ganti payment? ketik .setpay
 module.exports.helpMenu = (pushname) =>{
   return `Halo ${pushname}
 
-*「 FITUR BOT 」*
-Aku Assistant Louise
-Berikut beberapa menu yang tersedia di sini :
+╭✄┈┈┈⟬ *INFO-BOT* ⟭
+┆❐ Creator : ${namaowner}
+┆❐ Bot Name : ${namabot}
+╰──────────◇
 
-\`\`\`» /owner
-» /ceksewa
-» /pay
-» /setpay
-» /list
-» /addlist
-» /updatelist
-» /renamelist
-» /dellist
-» /jeda
-» /tambah
-» /kurang
-» /kali
-» /bagi
-» /setproses
-» /changeproses
-» /delsetproses
-» /setdone
-» /changedone
-» /delsetdone
-» /proses
-» /done
-» /welcome
-» /goodbye
-» /setwelcome
-» /changewelcome
-» /delsetwelcome
-» /setleft
-» /changeleft
-» /delsetleft
-» /antiwame
-» /antiwame2
-» /antilink
-» /antilink2
-» /open
-» /close
-» /hidetag
-» /add
-» /kick
-» /stiker
-» /ffid
-» /mlid
-» /setppgc
-» /setnamegc
-» /setdesgc
-» /linkgc
-» /resetlinkgc
-» /promote
-» /demote
-» /setbot
-» /updatesetbot
-» /delsetbot
-» /bot
+Aku Assitant Louise di grup ini, Berikut list menu yang tersedia di grup ini :)
+Semoga aku bisa bantu kalian yaa.
+
 \`\`\`
+╭✄┈┈┈⟬ *Menu Admin Grup* ⟭
+┆❐ /owner (Cek kontak owner)
+┆❐ /ceksewa (Cek sewa)
+┆❐ /jeda (Jeda grup close)
+┆❐ /setpay
+┆❐ /kick
+┆❐ /add
+┆❐ /hidetag
+┆❐ /open
+┆❐ /close
+╰──────────◇
 
+╭✄┈┈┈⟬ *Menu Member* ⟭
+┆❐ /list
+┆❐ /sticker
+┆❐ /pay
+┆❐ /menu
+┆❐ /bot
+╰──────────◇
+
+╭✄┈┈┈⟬ *Menu Admin Group Chat* ⟭
+┆❐ /linkgc
+┆❐ /setppgc
+┆❐ /setnamegc
+┆❐ /setdesgc
+┆❐ /resetlinkgc
+╰──────────◇
+
+╭✄┈┈┈⟬ *Menu Setting Bot* ⟭
+┆❐ /setbot
+┆❐ /updatesetbot
+┆❐ /delsetbot
+╰──────────◇
+
+╭✄┈┈┈⟬ *Menu Admin Antilink* ⟭
+┆❐ /antiwame
+┆❐ /antiwame2
+┆❐ /antilink
+┆❐ /antilink2
+╰──────────◇
+
+╭✄┈┈┈⟬ *Menu Admin List* ⟭
+┆❐ /addlist
+┆❐ /updatelist
+┆❐ /renamelist
+┆❐ /dellist
+╰──────────◇
+
+╭✄┈┈┈⟬ *Menu Admin Proses-Done* ⟭
+┆❐ /proses
+┆❐ /done
+┆❐ /setproses
+┆❐ /changeproses
+┆❐ /delsetproses
+┆❐ /setdone
+┆❐ /changedone
+┆❐ /delsetdone
+╰──────────◇
+
+╭✄┈┈┈⟬ *Menu Admin Welcome-Left* ⟭
+┆❐ /welcome on-off
+┆❐ /goodbye on-off
+┆❐ /setwelcone
+┆❐ /changewelcome
+┆❐ /delsetwelcome
+┆❐ /setleft
+┆❐ /changeleft
+┆❐ /delsetleft
+╰──────────◇
+
+╭✄┈┈┈⟬ *Menu Kalkulator* ⟭
+┆❐ /tambah
+┆❐ /kurang
+┆❐ /kali
+┆❐ /bagi
+╰──────────◇
+\`\`\`
 📝 *NOTE*: 
 Kalian juga bisa ketik tanpa "/"
 Example : owner
